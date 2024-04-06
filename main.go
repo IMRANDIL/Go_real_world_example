@@ -1,9 +1,11 @@
 package main
 
 import (
+	"fmt"
 	"log"
 
 	"github.com/imrandil/the_real_world/db"
+	"github.com/imrandil/the_real_world/models"
 	"github.com/imrandil/the_real_world/utils"
 	_ "github.com/lib/pq"
 )
@@ -20,9 +22,23 @@ func main() {
 	//process csv file
 	//data.ProcessCSV()
 
+	// Create the table if it doesn't exist
+	err = models.CreateTable(db)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	data, err := utils.LoadDataFromJSON("output.json")
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	//now insert the data into db
+
+	err = models.InsertMarketData(db, data)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println("Data inserted successfully")
 
 }
