@@ -16,6 +16,10 @@ type QueryResult struct {
 func GetCountOfTable(db *sql.DB) (int, error) {
 	// Query to get the count of the table
 	countQuery := "SELECT COUNT(*) FROM market_data"
+	// countQuery := `SELECT COUNT(*) FROM (
+	// 	SELECT * FROM market_data LIMIT 96
+	// ) AS limited_data;
+	// `
 	var count int
 	err := db.QueryRow(countQuery).Scan(&count)
 	if err != nil {
