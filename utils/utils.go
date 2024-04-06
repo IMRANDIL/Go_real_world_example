@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"github.com/imrandil/the_real_world/data"
+	"github.com/imrandil/the_real_world/models"
 )
 
 // LoadDataFromJSON loads market data from a JSON file
-func LoadDataFromJSON(filePath string) ([]data.MarketData, error) {
+func LoadDataFromJSON(filePath string) ([]models.MarketData, error) {
 	// Read JSON file
 	jsonData, err := ioutil.ReadFile(filePath)
 	if err != nil {
@@ -16,7 +16,7 @@ func LoadDataFromJSON(filePath string) ([]data.MarketData, error) {
 	}
 
 	// Unmarshal JSON data into a slice of MarketData
-	var data []data.MarketData
+	var data []models.MarketData
 	if err := json.Unmarshal(jsonData, &data); err != nil {
 		return nil, err
 	}

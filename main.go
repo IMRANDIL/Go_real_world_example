@@ -6,7 +6,6 @@ import (
 
 	"github.com/imrandil/the_real_world/db"
 	"github.com/imrandil/the_real_world/models"
-	"github.com/imrandil/the_real_world/utils"
 	_ "github.com/lib/pq"
 )
 
@@ -23,28 +22,35 @@ func main() {
 	//data.ProcessCSV()
 
 	//drop the table if exists..
-	err = models.DropTable(db)
-	if err != nil {
-		log.Fatal(err)
-	}
+	// err = models.DropTable(db)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
 
 	// Create the table if it doesn't exist
-	err = models.CreateTable(db)
-	if err != nil {
-		log.Fatal(err)
-	}
+	// err = models.CreateTable(db)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
 
-	data, err := utils.LoadDataFromJSON("output.json")
-	if err != nil {
-		log.Fatal(err)
-	}
+	// data, err := utils.LoadDataFromJSON("output.json")
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
 
 	//now insert the data into db
 
-	err = models.InsertMarketDataBulk(db, data)
+	// err = models.InsertMarketDataBulk(db, data)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+
+	count, items, err := models.GetTableCountAndItems(db)
 	if err != nil {
 		log.Fatal(err)
 	}
+	fmt.Println("count of the table", count)
+	fmt.Println("data", items[0])
 	fmt.Println("Data inserted successfully")
 
 }

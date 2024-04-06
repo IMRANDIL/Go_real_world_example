@@ -4,12 +4,24 @@ package models
 
 import (
 	"database/sql"
-
-	"github.com/imrandil/the_real_world/data"
+	"time"
 )
 
+type MarketData struct {
+	State                string    `json:"state"`
+	District             string    `json:"district"`
+	Market               string    `json:"market"`
+	Commodity            string    `json:"commodity"`
+	Variety              string    `json:"variety"`
+	ArrivalDate          time.Time `json:"arrival_date"`
+	ArrivalDateFormatted string    `json:"arrival_date_formatted"` // New field for formatted date
+	MinPrice             int       `json:"min_price"`
+	MaxPrice             int       `json:"max_price"`
+	ModalPrice           int       `json:"modal_price"`
+}
+
 // InsertMarketDataBulk inserts market data into the database in bulk
-func InsertMarketDataBulk(db *sql.DB, data []data.MarketData) error {
+func InsertMarketDataBulk(db *sql.DB, data []MarketData) error {
 	// Start a transaction
 	tx, err := db.Begin()
 	if err != nil {
@@ -26,14 +38,14 @@ func InsertMarketDataBulk(db *sql.DB, data []data.MarketData) error {
 
 	// Batch size for bulk insert
 	batchSize := 1000
-	batch := make([]data.MarketData, 0, batchSize)
+	batch := make([]MarketData, 0, batchSize)
 
 	// Insert records in batches
 	for i, d := range data {
 		batch = append(batch, d)
 		if len(batch) == batchSize || i == len(data)-1 {
 			// Execute bulk insert
-			err := insertBatch(stmt, batch)
+			err := insertBatch(db, stmt, batch)
 			if err != nil {
 				return err
 			}
@@ -52,7 +64,7 @@ func InsertMarketDataBulk(db *sql.DB, data []data.MarketData) error {
 
 // insertBatch inserts a batch of records into the database
 // insertBatch inserts a batch of records into the database
-func insertBatch(db *sql.DB, stmt *sql.Stmt, batch []data.MarketData) error {
+func insertBatch(db *sql.DB, stmt *sql.Stmt, batch []MarketData) error {
 	// Start a transaction for the batch
 	tx, err := db.Begin()
 	if err != nil {
