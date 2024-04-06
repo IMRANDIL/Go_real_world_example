@@ -1,0 +1,112 @@
+{State:Andaman and Nicobar District:South Andaman Market:Port Blair Commodity:Black pepper Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:110000 MaxPrice:130000 ModalPrice:120000}
+{State:Kerala District:Kasargod Market:Kasargod Commodity:Pepper garbled Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:32000 MaxPrice:33000 ModalPrice:32500}
+{State:Meghalaya District:East Khasi Hills Market:Shillong Commodity:Betal Leaves Variety:Local ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:21000 MaxPrice:30000 ModalPrice:26500}
+{State:Kerala District:Kannur Market:Taliparamba Commodity:Black pepper Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:29000 MaxPrice:29500 ModalPrice:29250}
+{State:Uttar Pradesh District:Kanpur Market:Rura Commodity:Ghee Variety:Ghee ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:28000 MaxPrice:29000 ModalPrice:29000}
+{State:Kerala District:Kasargod Market:Manjeswaram Commodity:Pepper garbled Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:27500 MaxPrice:28000 ModalPrice:27750}
+length of items 6
+{State:Odisha District:Sundergarh Market:Bonai Commodity:Black Gram (Urd Beans)(Whole) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:5600 MaxPrice:9000 ModalPrice:9000}
+{State:Kerala District:Thiruvananthapuram Market:Parassala Commodity:Ginger(Green) Variety:Green Ginger ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8000 MaxPrice:9000 ModalPrice:8000}
+{State:Kerala District:Malappuram Market:Kondotty Commodity:Ginger(Green) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8800 MaxPrice:9000 ModalPrice:8900}
+{State:Odisha District:Sundergarh Market:Bonai Commodity:Black Gram (Urd Beans)(Whole) Variety:Local ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:5600 MaxPrice:9000 ModalPrice:9000}
+{State:Haryana District:Mewat Market:Taura Commodity:Ginger(Green) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9000 MaxPrice:9000 ModalPrice:9000}
+{State:Pondicherry District:Karaikal Market:Karaikal Commodity:Copra Variety:Copra ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9000 MaxPrice:9000 ModalPrice:9000}
+length of items 6
+{State:Tamil Nadu District:Coimbatore Market:Madathukulam Commodity:Copra Variety:Ball ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10250 MaxPrice:10300 ModalPrice:10275}
+{State:Kerala District:Kannur Market:Taliparamba Commodity:Copra Variety:other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10100 MaxPrice:10300 ModalPrice:10250}
+{State:Tamil Nadu District:Coimbatore Market:Udumalpet Commodity:Copra Variety:other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8900 MaxPrice:10250 ModalPrice:9350}
+{State:Tamil Nadu District:Erode Market:Kodumudi Commodity:Copra Variety:other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9605 MaxPrice:10205 ModalPrice:10195}
+{State:Kerala District:Kasargod Market:Manjeswaram Commodity:Copra Variety:Copra ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10000 MaxPrice:10200 ModalPrice:10100}
+{State:Kerala District:Kasargod Market:Kasargod Commodity:Cashewnuts Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10000 MaxPrice:10200 ModalPrice:10100}
+length of items 6
+{State:Tamil Nadu District:Madurai Market:Melur Commodity:Sesamum(Sesame,Gingelly,Til) Variety:Black ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:6200 MaxPrice:8000 ModalPrice:7100}
+{State:Andaman and Nicobar District:South Andaman Market:Port Blair Commodity:Bhindi(Ladies Finger) Variety:Bhindi ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:6000 MaxPrice:8000 ModalPrice:7000}
+{State:Haryana District:Mewat Market:Taura Commodity:Apple Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8000 MaxPrice:8000 ModalPrice:8000}
+{State:Maharashtra District:Satara Market:Karad Commodity:Apple Variety:Simla ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:5400 MaxPrice:8000 ModalPrice:8000}
+{State:Odisha District:Sundergarh Market:Bonai Commodity:Orange Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8000 MaxPrice:8000 ModalPrice:8000}
+{State:Odisha District:Sundergarh Market:Bonai Commodity:Orange Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8000 MaxPrice:8000 ModalPrice:8000}
+length of items 6
+{State:Tamil Nadu District:Villupuram Market:Vikkiravandi Commodity:Sesamum(Sesame,Gingelly,Til) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9774 MaxPrice:10749 ModalPrice:10049}
+{State:West Bengal District:Puruliya Market:Purulia Commodity:Mustard Oil Variety:Mustard Oil ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10400 MaxPrice:10530 ModalPrice:10530}
+{State:Tamil Nadu District:Villupuram Market:Sangarapuram Commodity:Sesamum(Sesame,Gingelly,Til) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8640 MaxPrice:10516 ModalPrice:9391}
+{State:Kerala District:Kasargod Market:Kasargod Commodity:Copra Variety:other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10200 MaxPrice:10400 ModalPrice:10300}
+{State:Tamil Nadu District:Namakkal Market:Rasipuram Commodity:Copra Variety:other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8500 MaxPrice:10400 ModalPrice:9450}
+{State:Kerala District:Kannur Market:Taliparamba Commodity:Copra Variety:other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10100 MaxPrice:10300 ModalPrice:10250}
+length of items 6
+{State:Tamil Nadu District:Vellore Market:Vellore Commodity:Tamarind Fruit Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10100 MaxPrice:10100 ModalPrice:10100}
+{State:Kerala District:Kollam Market:Kaliyanchanda Commodity:Bitter gourd Variety:Bitter Gourd ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9600 MaxPrice:10100 ModalPrice:9800}
+{State:West Bengal District:Burdwan Market:Katwa Commodity:Mustard Oil Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9025 MaxPrice:10025 ModalPrice:9925}
+{State:Pondicherry District:Karaikal Market:Karaikal Commodity:Sesamum(Sesame,Gingelly,Til) Variety:Sesame ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10000 MaxPrice:10000 ModalPrice:10000}
+{State:Andaman and Nicobar District:South Andaman Market:Port Blair Commodity:Cluster beans Variety:Cluster Beans ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8000 MaxPrice:10000 ModalPrice:9000}
+{State:Himachal Pradesh District:Kullu Market:Bhuntar Commodity:Ginger(Dry) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9500 MaxPrice:10000 ModalPrice:9800}
+length of items 6
+{State:Tamil Nadu District:Namakkal Market:Namakkal Commodity:Copra Variety:Ball ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8100 MaxPrice:8700 ModalPrice:8400}
+{State:West Bengal District:Medinipur(W) Market:Ghatal Commodity:Sesamum(Sesame,Gingelly,Til) Variety:Red ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8500 MaxPrice:8700 ModalPrice:8600}
+{State:Tamil Nadu District:Namakkal Market:Tiruchengode Commodity:Turmeric Variety:Finger ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:7412 MaxPrice:8609 ModalPrice:8000}
+{State:Kerala District:Kottayam Market:Ettumanoor Commodity:Ginger(Green) Variety:Green Ginger ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8500 MaxPrice:8600 ModalPrice:8600}
+{State:Punjab District:Muktsar Market:Malout Commodity:Ginger(Green) Variety:Green Ginger ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:7000 MaxPrice:8500 ModalPrice:7500}
+{State:Telangana District:Hyderabad Market:Mahboob Manison Commodity:Dry Chillies Variety:1st Sort ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:6000 MaxPrice:8500 ModalPrice:7000}
+length of items 6
+{State:Kerala District:Thirssur Market:Chelakkara Commodity:Ginger(Green) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8000 MaxPrice:8400 ModalPrice:8200}
+{State:Kerala District:Alappuzha Market:Mannar Commodity:Capsicum Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8000 MaxPrice:8300 ModalPrice:8200}
+{State:Manipur District:Imphal East Market:Lamlong Bazaar Commodity:Masur Dal Variety:Masur Dal ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:0 MaxPrice:8200 ModalPrice:8200}
+{State:West Bengal District:Burdwan Market:Katwa Commodity:Ginger(Dry) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:7900 MaxPrice:8100 ModalPrice:8000}
+{State:Himachal Pradesh District:Kullu Market:Bhuntar Commodity:Grapes Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:7000 MaxPrice:8000 ModalPrice:7500}
+{State:Haryana District:Mewat Market:Taura Commodity:Apple Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8000 MaxPrice:8000 ModalPrice:8000}
+length of items 6
+{State:Goa District:North Goa Market:Sanquelim Commodity:Arecanut(Betelnut/Supari) Variety:Supari ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:21500 MaxPrice:23000 ModalPrice:22250}
+{State:Kerala District:Kasargod Market:Manjeswaram Commodity:Arecanut(Betelnut/Supari) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:21500 MaxPrice:22000 ModalPrice:21750}
+{State:Kerala District:Kasargod Market:Kasargod Commodity:Arecanut(Betelnut/Supari) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:21000 MaxPrice:22000 ModalPrice:21500}
+{State:Goa District:North Goa Market:Sanquelim Commodity:Arecanut(Betelnut/Supari) Variety:White ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:20000 MaxPrice:21000 ModalPrice:20500}
+{State:Himachal Pradesh District:Kangra Market:Palampur Commodity:Mashrooms Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:15000 MaxPrice:20000 ModalPrice:20000}
+{State:Goa District:North Goa Market:Sanquelim Commodity:Arecanut(Betelnut/Supari) Variety:Red ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:19000 MaxPrice:20000 ModalPrice:19500}
+length of items 6
+{State:Kerala District:Malappuram Market:Kondotty Commodity:Ginger(Green) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8800 MaxPrice:9000 ModalPrice:8900}
+{State:Odisha District:Sundergarh Market:Bonai Commodity:Black Gram (Urd Beans)(Whole) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:5600 MaxPrice:9000 ModalPrice:9000}
+{State:Haryana District:Mewat Market:Taura Commodity:Ginger(Green) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9000 MaxPrice:9000 ModalPrice:9000}
+{State:Punjab District:Muktsar Market:Malout Commodity:Grapes Variety:Black ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8000 MaxPrice:9000 ModalPrice:8500}
+{State:Kerala District:Kollam Market:Kaliyanchanda Commodity:Ginger(Green) Variety:Green Ginger ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8500 MaxPrice:9000 ModalPrice:8800}
+{State:Odisha District:Sundergarh Market:Bonai Commodity:Black Gram (Urd Beans)(Whole) Variety:Local ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:5600 MaxPrice:9000 ModalPrice:9000}
+length of items 6
+{State:Tamil Nadu District:Erode Market:Kodumudi Commodity:Sesamum(Sesame,Gingelly,Til) Variety:Red ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10249 MaxPrice:11791 ModalPrice:11681}
+{State:Tamil Nadu District:Villupuram Market:Kallakurichi Commodity:Gingelly Oil Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:7999 MaxPrice:11561 ModalPrice:10649}
+{State:Tamil Nadu District:Nagercoil (Kannyiakumari) Market:Kalliakavillai Commodity:Cashewnuts Variety:Local(Raw) ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9500 MaxPrice:11500 ModalPrice:10500}
+{State:Tamil Nadu District:Villupuram Market:Villupuram Commodity:Sesamum(Sesame,Gingelly,Til) Variety:Black ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10636 MaxPrice:11458 ModalPrice:11124}
+{State:Tamil Nadu District:Villupuram Market:Manalurpet Commodity:Sesamum(Sesame,Gingelly,Til) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9011 MaxPrice:11351 ModalPrice:10181}
+{State:Tamil Nadu District:Villupuram Market:Tindivanam Commodity:Sesamum(Sesame,Gingelly,Til) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:11199 MaxPrice:11324 ModalPrice:11261}
+length of items 6
+{State:Andaman and Nicobar District:South Andaman Market:Port Blair Commodity:Cluster beans Variety:Cluster Beans ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8000 MaxPrice:10000 ModalPrice:9000}
+{State:Himachal Pradesh District:Kullu Market:Bhuntar Commodity:Ginger(Dry) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9500 MaxPrice:10000 ModalPrice:9800}
+{State:West Bengal District:Puruliya Market:Balarampur Commodity:Mustard Oil Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9900 MaxPrice:9980 ModalPrice:9940}
+{State:Uttar Pradesh District:Mirzapur Market:Mirzapur Commodity:Mustard Oil Variety:Mustard Oil ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9830 MaxPrice:9940 ModalPrice:9880}
+{State:Manipur District:Bishnupur Market:Bishenpur Commodity:Bengal Gram Dal (Chana Dal) Variety:Bengal Gram Dal ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:0 MaxPrice:9600 ModalPrice:9600}
+{State:Tamil Nadu District:Vellore Market:Vellore Commodity:Copra Variety:Copra ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:7030 MaxPrice:9600 ModalPrice:9300}
+length of items 6
+{State:Tamil Nadu District:Villupuram Market:Gingee Commodity:Sesamum(Sesame,Gingelly,Til) Variety:95/5 ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10799 MaxPrice:11299 ModalPrice:11049}
+{State:Kerala District:Alappuzha Market:Aroor Commodity:Apple Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10000 MaxPrice:11200 ModalPrice:11000}
+{State:Manipur District:Thoubal Market:Thoubal Commodity:Bengal Gram Dal (Chana Dal) Variety:Bengal Gram Dal ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:0 MaxPrice:11000 ModalPrice:11000}
+{State:Andaman and Nicobar District:South Andaman Market:Port Blair Commodity:Carrot Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9000 MaxPrice:11000 ModalPrice:10000}
+{State:Maharashtra District:Kolhapur Market:Kolhapur Commodity:Apple Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:4000 MaxPrice:11000 ModalPrice:10000}
+{State:Tamil Nadu District:Erode Market:Vellakkoil Commodity:Copra Variety:Copra ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:5305 MaxPrice:10915 ModalPrice:8845}
+length of items 6
+{State:Uttar Pradesh District:Ghaziabad Market:Hapur Commodity:Mustard Oil Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9150 MaxPrice:9400 ModalPrice:9250}
+{State:Tamil Nadu District:Villupuram Market:Chinnasalem Commodity:Sesamum(Sesame,Gingelly,Til) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9300 MaxPrice:9400 ModalPrice:9350}
+{State:Uttar Pradesh District:Lakhimpur Market:Paliakala Commodity:Mustard Oil Variety:Mustard Oil ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9220 MaxPrice:9300 ModalPrice:9245}
+{State:Uttar Pradesh District:Muzaffarnagar Market:Muzzafarnagar Commodity:Mustard Oil Variety:Mustard Oil ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9230 MaxPrice:9285 ModalPrice:9270}
+{State:Uttar Pradesh District:Kannuj Market:Chhibramau(Kannuj) Commodity:Mustard Oil Variety:Mustard Oil ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8900 MaxPrice:9090 ModalPrice:9000}
+{State:Himachal Pradesh District:Kangra Market:Kangra(Jassour) Commodity:Ginger(Green) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:8500 MaxPrice:9000 ModalPrice:8750}
+length of items 6
+{State:Himachal Pradesh District:Kangra Market:Palampur Commodity:Mashrooms Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:15000 MaxPrice:20000 ModalPrice:20000}
+{State:Kerala District:Kannur Market:Taliparamba Commodity:Coconut Oil Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:18000 MaxPrice:18300 ModalPrice:18150}
+{State:Meghalaya District:East Khasi Hills Market:Shillong Commodity:Arecanut(Betelnut/Supari) Variety:New Variety ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:9500 MaxPrice:17000 ModalPrice:13500}
+{State:Manipur District:Imphal East Market:Lamlong Bazaar Commodity:Dry Chillies Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:13000 MaxPrice:15000 ModalPrice:15000}
+{State:Manipur District:Imphal West Market:Imphal Commodity:Dry Chillies Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:14800 MaxPrice:15000 ModalPrice:15000}
+{State:Tamil Nadu District:Erode Market:Kodumudi Commodity:Sesamum(Sesame,Gingelly,Til) Variety:Black ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:11300 MaxPrice:14677 ModalPrice:14509}
+length of items 6
+{State:Manipur District:Thoubal Market:Thoubal Commodity:Dry Chillies Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:13500 MaxPrice:14500 ModalPrice:14000}
+{State:Maharashtra District:Pune Market:Pune Commodity:Apple Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:4000 MaxPrice:14000 ModalPrice:7800}
+{State:Manipur District:Chandel Market:Moreh Commodity:Dry Chillies Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:13000 MaxPrice:13500 ModalPrice:13300}
+{State:Kerala District:Kannur Market:Taliparamba Commodity:Rubber Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:12300 MaxPrice:12400 ModalPrice:12350}
+{State:Andaman and Nicobar District:South Andaman Market:Port Blair Commodity:Cauliflower Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:10000 MaxPrice:12000 ModalPrice:11000}
+{State:Maharashtra District:Pune Market:Pune Commodity:Pear(Marasebu) Variety:Other ArrivalDate:2019-04-03 00:00:00 +0000 +0000 ArrivalDateFormatted:2019-04-03T00:00:00Z MinPrice:6000 MaxPrice:12000 ModalPrice:8000}
+length of items 6
