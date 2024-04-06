@@ -43,7 +43,7 @@ func fanIn(done <-chan int, channels ...<-chan models.QueryResult) <-chan models
 }
 
 func main() {
-	serviceURI := "postgres://avnadmin:AVNS_j1zoNT6FNEgqRyqK0Eg@pg-192a0722-aliimranadil2-cf20.a.aivencloud.com:18547/practicedb?sslmode=require"
+	serviceURI := "postgres://*********" //this will go into env file
 	start := time.Now()
 	db, err := db.ConnectDB(serviceURI)
 	if err != nil {
