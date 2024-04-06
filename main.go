@@ -22,6 +22,12 @@ func main() {
 	//process csv file
 	//data.ProcessCSV()
 
+	//drop the table if exists..
+	err = models.DropTable(db)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	// Create the table if it doesn't exist
 	err = models.CreateTable(db)
 	if err != nil {
@@ -35,7 +41,7 @@ func main() {
 
 	//now insert the data into db
 
-	err = models.InsertMarketData(db, data)
+	err = models.InsertMarketDataBulk(db, data)
 	if err != nil {
 		log.Fatal(err)
 	}
