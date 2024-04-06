@@ -87,7 +87,10 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	rowsPerRoutine := count / CPUCount
+	remainingRows := count % CPUCount // Distribute the remaining rows among the goroutines
+
 	startRow := 0
 	dataRetrievalChannels := make([]<-chan models.QueryResult, CPUCount)
 
@@ -95,15 +98,15 @@ func main() {
 	for i := 0; i < CPUCount; i++ {
 		// Calculate the end row for this goroutine
 		endRow := startRow + rowsPerRoutine
-		if i == CPUCount-1 {
-			endRow = count // For the last goroutine, process remaining rows
+		if i < remainingRows {
+			endRow++ // Distribute remaining rows among the first few goroutines
 		}
 
 		// Retrieve data from the specified range of rows
 		dataRetrievalChannels[i] = models.GetTableCountAndItems(db, startRow, endRow, done)
 
 		// Update start row for the next goroutine
-		startRow = endRow + 1
+		startRow = endRow
 	}
 
 	// Fan in results from all goroutines
@@ -117,6 +120,7 @@ func main() {
 		for _, item := range items {
 			fmt.Printf("%+v\n", *item)
 		}
+		fmt.Println("length of items", len(items))
 	}
 	// fmt.Printf("data %+v\n", items) // Use %+v to print struct field names with values
 	// fmt.Println("Data inserted successfully")

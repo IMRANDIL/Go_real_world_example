@@ -43,6 +43,7 @@ func GetTableCountAndItems(db *sql.DB, startRow, endRow int, done <-chan int) <-
 		// Query to get items from the specified range of rows
 		itemsQuery := "SELECT state, district, market, commodity, variety, arrival_date, arrival_date_formatted, min_price, max_price, modal_price FROM market_data ORDER BY max_price DESC OFFSET $1 LIMIT $2"
 		rows, err := db.Query(itemsQuery, startRow, endRow-startRow)
+
 		if err != nil {
 			resultChan <- QueryResult{Err: err}
 			return
