@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+	"time"
 
 	"github.com/imrandil/the_real_world/db"
 	"github.com/imrandil/the_real_world/models"
@@ -11,7 +12,7 @@ import (
 
 func main() {
 	serviceURI := "postgres://avnadmin:AVNS_j1zoNT6FNEgqRyqK0Eg@pg-192a0722-aliimranadil2-cf20.a.aivencloud.com:18547/practicedb?sslmode=require"
-
+	start := time.Now()
 	db, err := db.ConnectDB(serviceURI)
 	if err != nil {
 		log.Fatal(err)
@@ -50,7 +51,11 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println("count of the table", count)
-	fmt.Printf("data %+v\n", *items[0]) // Use %+v to print struct field names with values
-	fmt.Println("Data inserted successfully")
+	for _, item := range items {
+		fmt.Printf("%+v\n", item) // Use %+v to print struct field names with values
+	}
+	// fmt.Printf("data %+v\n", items) // Use %+v to print struct field names with values
+	// fmt.Println("Data inserted successfully")
+	fmt.Println(time.Since(start))
 
 }
