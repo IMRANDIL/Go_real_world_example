@@ -8,6 +8,7 @@ import (
 	"time"
 
 	"github.com/imrandil/the_real_world/db"
+	"github.com/imrandil/the_real_world/generate"
 	"github.com/imrandil/the_real_world/models"
 	_ "github.com/lib/pq"
 )
@@ -110,22 +111,33 @@ func main() {
 	}
 
 	// Fan in results from all goroutines
+	// Collect items from all goroutines
+	var allItems []*models.MarketData
 	for result := range fanIn(done, dataRetrievalChannels...) {
 		if result.Err != nil {
 			fmt.Println("Error:", result.Err)
 			continue
 		}
-		items := result.Items
+		allItems = append(allItems, result.Items...)
+		// items := result.Items
 
-		for _, item := range items {
-			fmt.Printf("%+v\n", *item)
-		}
-		fmt.Println("length of items", len(items))
+		// for _, item := range items {
+		// 	fmt.Printf("%+v\n", *item)
+		// }
+		// fmt.Println("length of items", len(items))
 	}
+
+	// Generate PDF with all retrieved items
+	err = generate.GeneratePDF(allItems)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	// fmt.Printf("data %+v\n", items) // Use %+v to print struct field names with values
 	// fmt.Println("Data inserted successfully")
 	fmt.Println(time.Since(start))
 	fmt.Println("count row", count)
+	fmt.Println("PDF generated successfully")
 	// fmt.Println("nubmerofrows", len(items))
 
 }
