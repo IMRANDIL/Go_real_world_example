@@ -4,11 +4,10 @@ package models
 
 import (
 	"database/sql"
-	"time"
 )
 
 // GetTableCountAndItems retrieves the count of the table and 100 items from the table
-func GetTableCountAndItems(db *sql.DB) (int, []MarketData, error) {
+func GetTableCountAndItems(db *sql.DB) (int, []*MarketData, error) {
 	// Query to get the count of the table
 	countQuery := "SELECT COUNT(*) FROM market_data"
 
@@ -30,38 +29,14 @@ func GetTableCountAndItems(db *sql.DB) (int, []MarketData, error) {
 	defer rows.Close()
 
 	// Slice to store the retrieved items
-	var items []MarketData
+	var items []*MarketData
 
 	// Iterate through the rows and scan each row into a MarketData struct
 	for rows.Next() {
-		var (
-			state                string
-			district             string
-			market               string
-			commodity            string
-			variety              string
-			arrivalDate          time.Time
-			arrivalDateFormatted string
-			minPrice             int
-			maxPrice             int
-			modalPrice           int
-		)
-		err := rows.Scan(&state, &district, &market, &commodity, &variety, &arrivalDate, &arrivalDateFormatted, &minPrice, &maxPrice, &modalPrice)
+		item := &MarketData{} // Initialize as a pointer to MarketData
+		err := rows.Scan(&item.State, &item.District, &item.Market, &item.Commodity, &item.Variety, &item.ArrivalDate, &item.ArrivalDateFormatted, &item.MinPrice, &item.MaxPrice, &item.ModalPrice)
 		if err != nil {
 			return 0, nil, err
-		}
-		// Create a MarketData instance
-		item := MarketData{
-			State:                state,
-			District:             district,
-			Market:               market,
-			Commodity:            commodity,
-			Variety:              variety,
-			ArrivalDate:          arrivalDate,
-			ArrivalDateFormatted: arrivalDateFormatted,
-			MinPrice:             minPrice,
-			MaxPrice:             maxPrice,
-			ModalPrice:           modalPrice,
 		}
 		items = append(items, item)
 	}

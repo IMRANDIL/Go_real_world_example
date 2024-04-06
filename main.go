@@ -50,7 +50,7 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println("count of the table", count)
-	fmt.Println("data", items[0])
+	fmt.Printf("data %+v\n", *items[0]) // Use %+v to print struct field names with values
 	fmt.Println("Data inserted successfully")
 
 }
