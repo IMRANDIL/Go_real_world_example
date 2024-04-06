@@ -4,6 +4,7 @@ import (
 	"log"
 
 	"github.com/imrandil/the_real_world/db"
+	"github.com/imrandil/the_real_world/utils"
 	_ "github.com/lib/pq"
 )
 
@@ -18,4 +19,10 @@ func main() {
 
 	//process csv file
 	//data.ProcessCSV()
+
+	data, err := utils.LoadDataFromJSON("output.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
 }
