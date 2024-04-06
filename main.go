@@ -84,6 +84,9 @@ func main() {
 
 	CPUCount := runtime.NumCPU()
 	count, err := models.GetCountOfTable(db)
+	if err != nil {
+		log.Fatal(err)
+	}
 	rowsPerRoutine := count / CPUCount
 	startRow := 0
 	dataRetrievalChannels := make([]<-chan models.QueryResult, CPUCount)
