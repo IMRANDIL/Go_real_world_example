@@ -3,12 +3,43 @@ package main
 import (
 	"fmt"
 	"log"
+	"runtime"
+	"sync"
 	"time"
 
 	"github.com/imrandil/the_real_world/db"
 	"github.com/imrandil/the_real_world/models"
 	_ "github.com/lib/pq"
 )
+
+func fanIn(done <-chan int, channels ...<-chan models.QueryResult) <-chan models.QueryResult {
+	var wg sync.WaitGroup
+	fannedInStream := make(chan models.QueryResult)
+
+	transfer := func(c <-chan models.QueryResult) {
+		defer wg.Done()
+		for i := range c {
+			select {
+			case <-done:
+				return
+			case fannedInStream <- i:
+			}
+		}
+	}
+
+	for _, c := range channels {
+		wg.Add(1)
+		go transfer(c)
+	}
+
+	go func() {
+		wg.Wait()
+		close(fannedInStream)
+	}()
+
+	return fannedInStream
+
+}
 
 func main() {
 	serviceURI := "postgres://avnadmin:AVNS_j1zoNT6FNEgqRyqK0Eg@pg-192a0722-aliimranadil2-cf20.a.aivencloud.com:18547/practicedb?sslmode=require"
@@ -18,6 +49,10 @@ func main() {
 		log.Fatal(err)
 	}
 	defer db.Close()
+
+	done := make(chan int)
+
+	defer close(done)
 
 	//process csv file
 	//data.ProcessCSV()
@@ -45,18 +80,45 @@ func main() {
 	// if err != nil {
 	// 	log.Fatal(err)
 	// }
+	// Calculate the number of rows each goroutine should process
 
-	count, items, err := models.GetTableCountAndItems(db)
-	if err != nil {
-		log.Fatal(err)
+	CPUCount := runtime.NumCPU()
+	count, err := models.GetCountOfTable(db)
+	rowsPerRoutine := count / CPUCount
+	startRow := 0
+	dataRetrievalChannels := make([]<-chan models.QueryResult, CPUCount)
+
+	// Spawn goroutines to retrieve data from the database
+	for i := 0; i < CPUCount; i++ {
+		// Calculate the end row for this goroutine
+		endRow := startRow + rowsPerRoutine
+		if i == CPUCount-1 {
+			endRow = count // For the last goroutine, process remaining rows
+		}
+
+		// Retrieve data from the specified range of rows
+		dataRetrievalChannels[i] = models.GetTableCountAndItems(db, startRow, endRow, done)
+
+		// Update start row for the next goroutine
+		startRow = endRow + 1
 	}
-	fmt.Println("count of the table", count)
-	for _, item := range items {
-		fmt.Printf("%+v\n", *item) // Use %+v to print struct field names with values
+
+	// Fan in results from all goroutines
+	for result := range fanIn(done, dataRetrievalChannels...) {
+		if result.Err != nil {
+			fmt.Println("Error:", result.Err)
+			continue
+		}
+		items := result.Items
+
+		for _, item := range items {
+			fmt.Printf("%+v\n", *item)
+		}
 	}
 	// fmt.Printf("data %+v\n", items) // Use %+v to print struct field names with values
 	// fmt.Println("Data inserted successfully")
 	fmt.Println(time.Since(start))
-	fmt.Println("nubmerofrows", len(items))
+	fmt.Println("count row", count)
+	// fmt.Println("nubmerofrows", len(items))
 
 }
