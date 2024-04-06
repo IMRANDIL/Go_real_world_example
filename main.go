@@ -52,10 +52,11 @@ func main() {
 	}
 	fmt.Println("count of the table", count)
 	for _, item := range items {
-		fmt.Printf("%+v\n", item) // Use %+v to print struct field names with values
+		fmt.Printf("%+v\n", *item) // Use %+v to print struct field names with values
 	}
 	// fmt.Printf("data %+v\n", items) // Use %+v to print struct field names with values
 	// fmt.Println("Data inserted successfully")
 	fmt.Println(time.Since(start))
+	fmt.Println("nubmerofrows", len(items))
 
 }
